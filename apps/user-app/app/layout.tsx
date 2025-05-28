@@ -5,12 +5,13 @@ import { Providers } from '../provider';
 import ClientWrapper from '../ClientWrapper';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import LenisProvider from '../providers/LenisProvider';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Wallet',
-  description: 'Simple wallet app',
+  title: 'FlowPay',
+  description: 'FlowPay a simulated wallet app',
 };
 
 export default function RootLayout({
@@ -27,7 +28,9 @@ export default function RootLayout({
           <ClientWrapper>
             <SpeedInsights />
             <Analytics />
+            <LenisProvider>
             {children}
+             </LenisProvider>
           </ClientWrapper>
         </Providers>
       </body>
