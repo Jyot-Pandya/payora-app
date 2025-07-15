@@ -35,26 +35,26 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./Dockerfile
+          file: ./apps/user-app/Dockerfile # Correct path for the Dockerfile
           push: true
           no-cache: true ## Ensure fresh build
-          tags: pankajkumardev/flowpay:${{ github.sha }} # Tag using the commit hash to avoid conflicts
+          tags: pankajkumardev/payora:${{ github.sha }} # Tag using the commit hash to avoid conflicts
 
       - name: Verify Pushed Image
-        run: docker pull pankajkumardev/flowpay:${{ github.sha }} # Pull the latest image using the commit hash
+        run: docker pull pankajkumardev/payora:${{ github.sha }} # Pull the latest image using the commit hash
 
       - name: Deploy to EC2
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          key: ${{ secrets.SSH_KEY }}
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            # Pull the latest image and run the container
-            sudo docker pull pankajkumardev/flowpay:${{ github.sha }}  # Pull the image using the commit hash
+            sudo docker pull pankajkumardev/payora:${{ github.sha }}  # Pull the image using the commit hash
+            # Stop the existing container
             sudo docker stop web-app || true
             sudo docker rm web-app || true
-            sudo docker run -e DATABASE_URL=${{secrets.DB_URL}} -e JWT_SECRET=${{secrets.JWT_SECRET}}  -d --name web-app -p 3005:3000 pankajkumardev/flowpay:${{ github.sha }}   # Run with the specific tag
+            sudo docker run -d --name web-app -p 3005:3000 pankajkumardev/payora:${{ github.sha }}   # Run with the specific tag
             sudo docker exec web-app npm run db:migrate  # Run database migration
 
       - name: Cleanup Docker resources after deployment

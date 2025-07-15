@@ -23,7 +23,7 @@ export default function ContactUsPage() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-12">
           <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-800">
-            <span className="text-blue-600">FlowPay </span>Contact Us
+            <span className="text-blue-600">Payora </span>Contact Us
           </h1>
           <p className="mt-2 text-lg sm:text-xl text-slate-800">
             We're here to help with any questions or concerns
