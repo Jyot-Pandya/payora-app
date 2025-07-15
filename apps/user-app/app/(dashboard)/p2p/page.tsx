@@ -1,27 +1,19 @@
-import { SendCard } from "../../../components/SendCard";
-import { Metadata } from 'next'
+import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'P2P Transfer | Flowpay',
-  description: 'Fast and safe P2P transfers with Flowpay digital wallet application',
-}
+	title: 'P2P Transfer | Payora',
+	description: 'Fast and safe P2P transfers with Payora digital wallet application',
+};
+
+import { SendCard } from '../../../components/SendCard';
 
 export default function () {
-  return (
-    <div className="w-full px-4 sm:px-6 lg:px-8 ">
-      <div className="flex justify-center text-4xl mt-20 font-extrabold">
-        <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-800">
-          <span className="text-blue-600">FlowPay </span>P2P Transfer
-        </h1>
-      </div>
-      <div className="text-center mb-8 sm:mb-12">
-        <p className="mt-2 text-lg sm:text-xl text-slate-800">
-          Fast and safe P2P transfers
-        </p>
-      </div>
-      <div className="flex justify-center">
-        <SendCard />
-      </div>
-    </div>
-  );
+	return (
+		<div className="w-full">
+			<div className="text-4xl text-[#6a51a6] pt-8 mb-8 font-bold">
+				<span className="text-blue-600">Payora </span>P2P Transfer
+			</div>
+			<SendCard />
+		</div>
+	);
 }

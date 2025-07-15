@@ -10,8 +10,8 @@ import LenisProvider from '../providers/LenisProvider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'FlowPay',
-  description: 'FlowPay a simulated wallet app',
+  title: 'Payora',
+  description: 'Payora a simulated wallet app',
 };
 
 export default function RootLayout({

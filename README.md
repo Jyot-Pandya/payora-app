@@ -1,12 +1,9 @@
-# FlowPay
+# Payora
 
 
-![flowpay](https://github.com/user-attachments/assets/afa4d917-9912-4c6b-b995-785d8260abef)
-
-![FlowPay](https://img.shields.io/github/stars/PankajKumardev/Flowpay?style=social) ![Forks](https://img.shields.io/github/forks/PankajKumardev/Flowpay?style=social) ![Issues](https://img.shields.io/github/issues/PankajKumardev/Flowpay) ![License](https://img.shields.io/github/license/PankajKumardev/Flowpay)
 
 ## 🌟 Overview
-FlowPay is a cutting-edge peer-to-peer (P2P) payment and wallet management system, designed for effortless fund transfers and wallet functionalities. With a user-friendly interface and robust backend, FlowPay aims to simplify digital transactions for everyone.
+Payora is a cutting-edge peer-to-peer (P2P) payment and wallet management system, designed for effortless fund transfers and wallet functionalities. With a user-friendly interface and robust backend, Payora aims to simplify digital transactions for everyone.
 
 ---
 
@@ -60,7 +57,7 @@ FlowPay is a cutting-edge peer-to-peer (P2P) payment and wallet management syste
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/PankajKumardev/Flowpay.git
-   cd Flowpay
+   cd 
    ```
 2. **Install dependencies:**
    ```bash
@@ -85,45 +82,10 @@ FlowPay is a cutting-edge peer-to-peer (P2P) payment and wallet management syste
 
 ---
 
-## 🤝 Contribution Guidelines
-### 🌱 How to Get Involved
-We warmly welcome contributions to FlowPay! Here's how you can get started:
 
-1. **Fork the repository** by clicking the "Fork" button.
-2. **Clone your fork:**
-   ```bash
-   git clone https://github.com/<your-username>/Flowpay.git
-   ```
-3. **Create a new branch:**
-   ```bash
-   git checkout -b feature/<feature-name>
-   ```
-4. **Set up the environment** (refer to installation steps).
-5. **Make changes** following coding standards.
-6. **Commit your changes:**
-   ```bash
-   git add .
-   git commit -m "Your descriptive commit message"
-   ```
-7. **Push changes:**
-   ```bash
-   git push origin <your-branch-name>
-   ```
-8. **Open a pull request** with a clear description of changes.
-
-### 📌 Suggested Contributions
-- **Enhancements:** Improve state management, Docker configuration, and UI/UX.
-- **Features:** Develop merchant app, add webhooks, and enhance FAQs.
-- **Bug Fixes:** Address open issues.
-
-### 🏅 Contributor Badges
-Showcase your contribution with pride! 🏆
-[![Contributors](https://img.shields.io/github/contributors/PankajKumardev/Flowpay)](https://github.com/PankajKumardev/Flowpay/graphs/contributors)
-
----
 
 ## 🌟 Motivation & Entrepreneurship
-FlowPay was created to make digital finance seamless and accessible to everyone. Our vision is to empower individuals and businesses with innovative tools to simplify financial interactions. We believe in building an inclusive community where contributors and users thrive together. 🚀
+Payora was created to make digital finance seamless and accessible to everyone. Our vision is to empower individuals and businesses with innovative tools to simplify financial interactions. We believe in building an inclusive community where contributors and users thrive together. 🚀
 
 ---
 
@@ -149,26 +111,10 @@ FlowPay was created to make digital finance seamless and accessible to everyone.
 ---
 
 ## 🛡 License
-FlowPay is available under the MIT License. Feel free to use and modify the code responsibly.
+Payora is available under the MIT License. Feel free to use and modify the code responsibly.
 
 ---
 
-## 📖 Changelog
-Refer to [`CHANGELOG.md`](https://github.com/PankajKumardev/Flowpay/blob/main/CHANGELOG.md) for version history and updates.
 
----
-
-## 📬 Contact
-For queries or collaborations:
-- Email: [pankajams1234@gmail.com](mailto:pankajams1234@gmail.com)
-- LinkedIn: [Pankaj Kumar](https://www.linkedin.com/in/pankajkumardev0/)
-- Twitter: [@pankajkumar_dev](https://x.com/pankajkumar_dev)
-
----
-
-## 🌟 Stargazers & Forkers
-We appreciate your support! 🌟🍴
-
-[![Stargazers](https://img.shields.io/github/stars/PankajKumardev/Flowpay)](https://github.com/PankajKumardev/Flowpay/stargazers) [![Forks](https://img.shields.io/github/forks/PankajKumardev/Flowpay)](https://github.com/PankajKumardev/Flowpay/network/members)
 
 

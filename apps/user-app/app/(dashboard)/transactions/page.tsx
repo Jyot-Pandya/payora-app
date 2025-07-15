@@ -5,8 +5,8 @@ import { OnRampTransaction } from "../../../components/OnRampTransaction";
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Transactions | Flowpay',
-  description: 'Track all your transactions effortlessly with Flowpay digital wallet application',
+  title: 'Transactions | Payora',
+  description: 'Track all your transactions effortlessly with Payora digital wallet application',
 }
 
 async function getsentP2PTranscations() {
@@ -76,7 +76,7 @@ export default async function TransactionsPage() {
     <div className="w-full px-4 sm:px-6 lg:px-8">
       <div className="flex justify-center md:text-4xl mt-20 font-extrabold">
         <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-800">
-          <span className="text-blue-600">FlowPay </span>Transactions
+          <span className="text-blue-600">Payora </span>Transactions
         </h1>
       </div>
       <div className="text-center mb-8 sm:mb-12">
