@@ -56,7 +56,7 @@ Payora is a cutting-edge peer-to-peer (P2P) payment and wallet management system
 ## 📥 Installation Process
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Jyot-Pandya/payora-app.git](https://github.com/Jyot-Pandya/payora-app.git)
+   git clone https://github.com/Jyot-Pandya/payora-app.git
    cd payora
    ```
 2. **Install dependencies:**
