@@ -1,7 +1,5 @@
 # Payora
 
-
-
 ## 🌟 Overview
 Payora is a cutting-edge peer-to-peer (P2P) payment and wallet management system, designed for effortless fund transfers and wallet functionalities. With a user-friendly interface and robust backend, Payora aims to simplify digital transactions for everyone.
 
@@ -64,7 +62,6 @@ Payora is a cutting-edge peer-to-peer (P2P) payment and wallet management system
    npm install
    ```
 3. **Set up environment variables:**
-   - Copy `.env.example` to `.env`.
    - Fill in required fields (`JWT_SECRET`, `NEXTAUTH_URL`, `DATABASE_URL`).
 4. **Initialize the database:**
    ```bash
@@ -84,10 +81,7 @@ Payora is a cutting-edge peer-to-peer (P2P) payment and wallet management system
 
 
 
-## 🌟 Motivation & Entrepreneurship
-Payora was created to make digital finance seamless and accessible to everyone. Our vision is to empower individuals and businesses with innovative tools to simplify financial interactions. We believe in building an inclusive community where contributors and users thrive together. 🚀
 
----
 
 ## 🗂 Repository Structure
 ```
