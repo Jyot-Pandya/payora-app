@@ -56,10 +56,10 @@ export default function ContactUsPage() {
                 Get a response within 24 hours
               </p>
               <a
-                href="mailto:support@pankajams1234@gmail.com"
+                href="mailto:support@payora@gmail.com"
                 className="text-blue-600 font-medium hover:text-blue-800"
               >
-                support@flowpay.com
+                support@payora-app.com
               </a>
             </div>
           </div>
@@ -69,7 +69,7 @@ export default function ContactUsPage() {
                 <MapPin className="mr-2 h-5 w-5 text-blue-600" />
                 Visit Us
               </h3>
-              <p className="text-gray-600 mb-2">123 FlowPay Street</p>
+              <p className="text-gray-600 mb-2">123 payora-app Street</p>
               <p className="text-gray-600">Fintech City, FP 12345</p>
             </div>
           </div>

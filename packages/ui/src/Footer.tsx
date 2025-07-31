@@ -9,19 +9,19 @@ interface FooterProps {
 
 const Footer: React.FC<FooterProps> = ({
   year = new Date().getFullYear(),
-  email = "support@flowpay.com",
+  email = "support@payora-app.com",
 }) => {
   return (
     <footer className="bg-slate-100 text-gray-700 py-8 border-t border-slate-300">
       <div className="container mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">FlowPay</h3>
+            <h3 className="text-lg font-semibold">payora-app</h3>
             <p className="text-sm">
               Simplifying your finances with secure and seamless digital
               payments.
             </p>
-            <p className="text-sm">© {year} FlowPay. All rights reserved.</p>
+            <p className="text-sm">© {year} payora-app. All rights reserved.</p>
           </div>
 
           <div>
@@ -50,7 +50,7 @@ const Footer: React.FC<FooterProps> = ({
             <h4 className="text-md font-semibold mb-4">Connect With Us</h4>
             <div className="flex space-x-4 mb-4">
               <a
-                href="https://github.com/pankajkumardev"
+                href="https://github.com/jyot-pandya"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-gray-800"
@@ -68,7 +68,7 @@ const Footer: React.FC<FooterProps> = ({
                 <span className="sr-only">Twitter</span>
               </a>
               <a
-                href="https://linkedin.com/in/Pankajkumardev0"
+                href="https://linkedin.com/in/jyot-pandya0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-blue-700"
@@ -89,7 +89,7 @@ const Footer: React.FC<FooterProps> = ({
         </div>
 
         <div className="mt-8 pt-8 border-t border-slate-300 text-center text-sm text-gray-500">
-          <p>FlowPay is a registered trademark of FlowPay, Inc.</p>
+          <p>payora-app is a registered trademark of payora-app, Inc.</p>
         </div>
       </div>
     </footer>
