@@ -3,6 +3,5 @@
   "buildCommand": "turbo build --filter=docs",
   "outputDirectory": "apps/user-app/.next",
   "installCommand": "npm install",
-  "framework": "nextjs",
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD ./apps/user-app ./packages"
+  "framework": "nextjs"
 }
