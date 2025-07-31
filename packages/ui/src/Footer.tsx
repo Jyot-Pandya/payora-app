@@ -58,17 +58,9 @@ const Footer: React.FC<FooterProps> = ({
                 <Github size={20} />
                 <span className="sr-only">GitHub</span>
               </a>
+             
               <a
-                href="https://x.com/pankajkumar_dev"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-500 hover:text-blue-400"
-              >
-                <Twitter size={20} />
-                <span className="sr-only">Twitter</span>
-              </a>
-              <a
-                href="https://linkedin.com/in/jyot-pandya0"
+                href="https://linkedin.com/in/jyot-pandya-b91586264"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-blue-700"
@@ -79,7 +71,7 @@ const Footer: React.FC<FooterProps> = ({
             </div>
             <div>
               <a
-                href={`mailto:pankajams1234@gmail.com`}
+                href={`mailto:jyotpandya1512@gmail.com`}
                 className="text-sm hover:underline"
               >
                 {email}
