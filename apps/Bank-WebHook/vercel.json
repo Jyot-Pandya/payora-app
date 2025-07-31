@@ -1,14 +1,16 @@
 {
   "builds": [
     {
-      "src": "apps/bank-webhook/src/index.ts",
+      "src": "src/index.ts",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": ["packages/db/**"]
+        "includeFiles": ["../../packages/db/**"]
       }
     }
   ],
   "routes": [
-    { "src": "/.*", "dest": "apps/bank-webhook/dist/index.js" }
-  ]
+    { "src": "/.*", "dest": "/src/index.ts" }
+  ],
+  "installCommand": "cd ../.. && npm install",
+  "buildCommand": "npm run build"
 }
